@@ -1,0 +1,16 @@
+{
+  "name": "aws-sdk-as-promise",
+  "version": "0.0.1",
+  "description": "A promise wrapper for the aws-sdk package",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm --silent audit",
+    "test": "echo 'no tests'",
+    "prepack": "npm --silent audit"
+  },
+  "author": "Dean Netherton",
+  "license": "ISC",
+  "engines": {
+    "node": "12.6.0"
+  }
+}
